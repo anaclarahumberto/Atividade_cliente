@@ -1,7 +1,7 @@
 import sqlite3
 from typing import List, Optional
 import ClienteModels
-import * ClienteSql
+import ClienteSql
 from util.conexao import criar_conexao
 
 
