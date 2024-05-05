@@ -1,7 +1,7 @@
 import sqlite3
 from typing import List, Optional
-from models.produto import Produto
-from sql.produto import *
+import ProdutoModels
+import ProdutoSql
 from util.conexao import criar_conexao
 
 
