@@ -1,8 +1,8 @@
 import os
-from models.produto import Produto
-from repo.produto import ProdutoRepo
-from models.cliente import Cliente
-from repo.cliente import ClienteRepo
+import ProdutoModels
+import ProdutoRepo
+import ClienteModels
+import ClienteRepo
 
 ProdutoRepo.criar_tabela()
 
